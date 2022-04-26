@@ -1,0 +1,38 @@
+.profile {
+    align-items: left;
+    justify-content: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.profile-3 {
+    box-shadow:-2px 3px 18px 2px #0000004a;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+    margin: 0% 15px;
+    width: 30%;
+    border: solid grey 2px;
+    display: inline-block;
+}
+
+.profile-3 {
+    margin-top: 3%;
+}
+
+.person{
+    width: 200px;
+}
+
+.icon{
+width: 35px;
+margin-right: 25px;
+}
+
+.eye{
+    width: 35px;
+    margin-left: 150px;
+}
