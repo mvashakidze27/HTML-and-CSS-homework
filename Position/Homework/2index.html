@@ -11,6 +11,7 @@
           margin: 0;
           padding: 0;
           box-sizing: border-box;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
       img {
         width: 100%;
@@ -19,39 +20,48 @@
       body{
           overflow: hidden;
       }
+      h1{
+        color: white;
+        font-size: 50px;
+      }
       .text{
           position: absolute;
           top: 300px;
           left: 100px;
+
       }
       span.He{
         background-color: white;
-        padding-left: 20px;
+        padding-left: 30px;
+        color: black;
       }
       span.left {
-        background-color: aqua;
+        background-color: white;
         position: absolute;
+        font-size: 50px;
         top: 50%;
         left: 2%;
       }
       span.right {
-        background-color: aqua;
+        background-color: white;
         position: absolute;
+        font-size: 50px;
         top: 50%;
         right: 2%;
       }
       span.sport {
-        background-color: aqua;
-        font-size: 30px;
+        background-color: orange;
+        font-size: 50px;
         position: absolute;
         bottom: 2%;
         left: 50%;
         transform: translate(-50%, 0%);
+        color: white;
       }
       p {
-        font-size: 20px;
-        color: aqua;
-        padding-left: 20px;
+        font-size: 40px;
+        color: white;
+        padding-left: 30px;
       }
     </style>
   </head>
@@ -59,13 +69,13 @@
   <body>
     <div class="text">
         <h1><span class="He">He</span>ader</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit.</p>
     </div>
     
     <img src="./Lima.jpg" />
     
-    <span class="left"><</span>
-    <span class="right">></span>
-    <footer><span class="sport">SPORT</span></footer>
+    <span class="left"><b><</b></span>
+    <span class="right"><b>></b></span>
+    <footer><span class="sport"><b>SPORT</b></span></footer>
   </body>
 </html>
