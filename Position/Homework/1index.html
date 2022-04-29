@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Homework N1 MV</title>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner"><h2>Notification Title</h2><span class="x">X</span> <p class="text">This is the content of the notification. This is the content of the notification. This is the content of the notification.</p>
+        </div>
+    </div>
+</body>
+
+<style>
+    *{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+    div.outer{
+        border: solid grey;
+        display: inline-block;
+        height: 250px;
+        width: 750px;
+    }
+    div.inner{
+        border: solid grey;
+        display: inline-block;
+        height: 150px;
+        width: 450px;
+        position: relative;
+    }
+    span.x{
+        font-size: 25px;
+        color: grey;
+        position: relative;
+        bottom: 50px;
+        left: 400px;
+    }
+    .text{
+        font-size: 20px;
+    }
+
+</style>
+</html>
