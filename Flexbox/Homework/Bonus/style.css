@@ -1,0 +1,110 @@
+* {
+  border: solid;
+}
+.Flexbox {
+  margin: auto;
+  width: 805px;
+  height: 805px;
+  justify-content: flex-start;
+}
+
+.flex {
+  display: flex;
+}
+.column-1 {
+  width: 34.2%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.column-2 {
+  width: 29.8%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.column-3 {
+  width: 36%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.box-1 {
+  height: 37.9%;
+  width: 100%;
+  flex-direction: row;
+}
+
+.box-2 {
+  height: 37.9%;
+  width: 100%;
+}
+
+.box-3 {
+  height: 24.2%;
+  width: 100%;
+}
+
+.box-4 {
+  height: 37.9%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.box-5 {
+  height: 37.9%;
+  width: 100%;
+  flex-direction: row;
+}
+
+.box-6 {
+    height: 24.2%;
+    width: 100%;
+  }
+
+.col-11 {
+  width: 30%;
+  flex-direction: column;
+  height: 100%;
+}
+
+.col-12 {
+  width: 37%;
+  flex-direction: column;
+  height: 100%;
+}
+
+.col-13 {
+  width: 33%;
+  flex-direction: column;
+  height: 100%;
+}
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: rgb(243, 243, 117);
+}
+
+.orange {
+  background-color: orange;
+}
+
+.blue {
+  background-color: rgb(70, 70, 219);
+}
+
+.red {
+  background-color: brown;
+}
+
+#cell-1.1 {
+  height: 60%;
+  width: 100%;
+}
+
+#cell-1.2 {
+  height: 40%;
+  width: 100%;
+}
