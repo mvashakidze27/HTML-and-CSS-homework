@@ -1,84 +1,101 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
   border: solid;
 }
+
 .Flexbox {
   margin: auto;
   width: 805px;
   height: 805px;
-  justify-content: flex-start;
 }
 
 .flex {
   display: flex;
 }
+
+.col {
+  flex-direction: column;
+}
+
+.row{
+  flex-direction: row;
+}
+
 .column-1 {
   width: 34.2%;
   height: 100%;
-  flex-direction: column;
 }
 
 .column-2 {
   width: 29.8%;
   height: 100%;
-  flex-direction: column;
 }
 
 .column-3 {
   width: 36%;
   height: 100%;
-  flex-direction: column;
 }
 
 .box-1 {
   height: 37.9%;
   width: 100%;
-  flex-direction: row;
 }
 
 .box-2 {
-  height: 37.9%;
-  width: 100%;
-}
-
-.box-3 {
   height: 24.2%;
   width: 100%;
 }
 
-.box-4 {
-  height: 37.9%;
+.box-3{
+  height: 23.2%;
   width: 100%;
-  flex-direction: column;
 }
 
-.box-5 {
-  height: 37.9%;
+.box-4{
+  height: 38.9%;
   width: 100%;
-  flex-direction: row;
 }
 
-.box-6 {
-    height: 24.2%;
-    width: 100%;
-  }
-
-.col-11 {
+.col-1 {
   width: 30%;
-  flex-direction: column;
   height: 100%;
 }
 
-.col-12 {
+.col-2 {
   width: 37%;
-  flex-direction: column;
   height: 100%;
 }
 
-.col-13 {
+.col-3 {
   width: 33%;
-  flex-direction: column;
   height: 100%;
 }
+
+.col-4{
+  width: 50%;
+  height: 100%;
+}
+
+.col-5{
+  width: 80%;
+  height: 60%;
+}
+
+.col-6{
+  width: 20%;
+  height: 100%;
+}
+
+.col-7{
+  width: 80%;
+  height: 100%;
+}
+
 .black {
   background-color: black;
 }
@@ -92,19 +109,35 @@
 }
 
 .blue {
-  background-color: rgb(70, 70, 219);
+  background-color: rgb(102, 102, 235);
 }
 
 .red {
   background-color: brown;
 }
 
-#cell-1.1 {
+#cell-1 {
   height: 60%;
   width: 100%;
 }
 
-#cell-1.2 {
+#cell-2 {
   height: 40%;
   width: 100%;
 }
+
+#cell-3 {
+  height: 20%;
+  width: 100%;
+}
+
+#cell-4 {
+  height: 80%;
+  width: 100%;
+}
+
+#cell-5 {
+  height: 30%;
+  width: 100%;
+}
+
