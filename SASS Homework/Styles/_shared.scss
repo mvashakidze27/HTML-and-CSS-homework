@@ -1,0 +1,18 @@
+.container {
+
+  .alert {
+    font-family: $font-family-alert;
+    font-size: $font-size-alert;
+  }
+
+  .message {
+    font-family: $font-family-message;
+    font-size: $primary-font-size;
+  }
+
+  .lorem {
+    font-family: $font-family-lorem;
+    font-size: $primary-font-size;
+  }
+
+}
