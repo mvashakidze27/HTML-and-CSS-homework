@@ -5,56 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SASS HW1 MV</title>
- 
-    <link rel="stylesheet" href="./Styles/index.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <div class="container">
-      <h1 class="alert">Clear Alerts</h1>
-      <div class="small">
-        <div class="circle red"> <img src="./Icons/exclamation.png"> </div>
-        <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
-        <p class="lorem">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
-          vel mollis turpis. Sed sed nisi gravida!
-        </p>
-      </div>
-      <div class="small">
-        <div class="circle red"> <img src="./Icons/yes.png"> </div>
-        <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
-        <p class="lorem">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
-          vel mollis turpis. Sed sed nisi gravida!
-        </p>
-      </div>
-      <div class="small">
-        <div class="circle red"> <img src="./Icons/no.png"> </div>
-        <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
-        <p class="lorem">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
-          vel mollis turpis. Sed sed nisi gravida!
-        </p>
-      </div>
-      <div class="small">
-        <div class="circle red"> <img src="./Icons/thunder.png"> </div>
-        <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
-        <p class="lorem">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
-          vel mollis turpis. Sed sed nisi gravida!
-        </p>
-      </div>
+      <div class="table flex">
+        <h1 class="alert">Clear Alerts</h1>
 
-      <div class="big">
-        <div class="circle red"> <img src="./Icons/information.png"> </div>
-        <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
-        <p class="lorem">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
-          vel mollis turpis. Sed sed nisi gravida!
-        </p>
+        <div class="smallboxes flex">
+          <div class="small box">
+            <div class="cancel">
+              <img class="cancel" src="./Icons/cancel.png" />
+            </div>
+            <div class="circle-big yellow-big">
+              <div class="circle-small yellow-small">
+                <img src="./Icons/exclamation.png" />
+              </div>
+            </div>
+            <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
+              vel mollis turpis. Sed sed nisi gravida!
+            </p>
+          </div>
+
+          <div class="small box">
+            <div class="cancel">
+              <img class="cancel" src="./Icons/cancel.png" />
+            </div>
+            <div class="circle-big green-big">
+              <div class="circle-small green-small">
+                <img src="./Icons/yes.png" />
+              </div>
+            </div>
+            <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
+              vel mollis turpis. Sed sed nisi gravida!
+            </p>
+          </div>
+        </div>
+
+        <div class="smallboxes flex">
+          <div class="small box">
+            <div class="cancel">
+              <img class="cancel" src="./Icons/cancel.png" />
+            </div>
+            <div class="circle-big red-big">
+              <div class="circle-small red-small">
+                <img src="./Icons/no.png" />
+              </div>
+            </div>
+            <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
+              vel mollis turpis. Sed sed nisi gravida!
+            </p>
+          </div>
+
+          <div class="small box">
+            <div class="cancel">
+              <img class="cancel" src="./Icons/cancel.png" />
+            </div>
+            <div class="circle-big blue-big">
+              <div class="circle-small blue-small">
+                <img src="./Icons/thunder.png" />
+              </div>
+            </div>
+            <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
+              vel mollis turpis. Sed sed nisi gravida!
+            </p>
+          </div>
+        </div>
+
+        <div class="big box flex">
+          <div class="cancel">
+            <img class="cancel" src="./Icons/cancel.png" />
+          </div>
+          <div class="circle-big violet-big">
+            <div class="circle-small violet-small">
+              <img src="./Icons/information.png" />
+            </div>
+          </div>
+          <h3 class="message">YOUR MESSAGE TITLE HERE</h3>
+          <p class="lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nulla
+            vel mollis turpis. Sed sed nisi gravida!
+          </p>
+        </div>
       </div>
     </div>
   </body>

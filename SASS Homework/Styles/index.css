@@ -1,24 +1,93 @@
-.test {
-  background-color: #FFC12D;
+.container {
+  width: 1920px;
+  height: 1080px;
 }
-
-.container .alert {
-  font-family: "lato-light", sans-serif;
-  font-size: 30px;
+.container .flex {
+  display: flex;
 }
-.container .message {
-  font-family: "lato-black", sans-serif;
-  font-size: 14px;
+.container .table {
+  margin-top: 100px;
+  width: 1170px;
+  margin-left: 375px;
 }
-.container .lorem {
+.container .table .box {
+  border: 1px solid #E2E6E7;
+  border-radius: 11px;
+}
+.container .table .lorem {
   font-family: "lato-regular", sans-serif;
   font-size: 14px;
+  color: #A1B1BC;
+}
+.container .table .alert {
+  font-family: "lato-light", sans-serif;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.container .table .cancel {
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 20px;
+  width: 20px;
+}
+.container .table .message {
+  font-family: "lato-black", sans-serif;
+  font-size: 14px;
+  color: #2C3E50;
+}
+.container .table .big {
+  width: 100%;
+  height: 150px;
+}
+.container .table .circle-big {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+.container .table .circle-small {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.container .table .violet-big {
+  background-color: #8781BD;
+}
+.container .table .violet-small {
+  background-color: #A39CDC;
+}
+.container .table .smallboxes {
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.container .table .smallboxes .small {
+  width: 570px;
+  height: 150px;
+}
+.container .table .smallboxes .yellow-big {
+  background-color: #F9B718;
+}
+.container .table .smallboxes .green-big {
+  background-color: #7BC200;
+}
+.container .table .smallboxes .red-big {
+  background-color: #F55C43;
+}
+.container .table .smallboxes .blue-big {
+  background-color: #47B4F6;
+}
+.container .table .smallboxes .yellow-small {
+  background-color: #FFC12D;
+}
+.container .table .smallboxes .green-small {
+  background-color: #97E411;
+}
+.container .table .smallboxes .red-small {
+  background-color: #FD7761;
+}
+.container .table .smallboxes .blue-small {
+  background-color: #6FD9FC;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,7 +109,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;

@@ -1,18 +1,106 @@
 .container {
+  width: 1920px;
+  height: 1080px;
 
-  .alert {
-    font-family: $font-family-alert;
-    font-size: $font-size-alert;
+  .flex {
+    display: flex;
   }
 
-  .message {
-    font-family: $font-family-message;
-    font-size: $primary-font-size;
-  }
+  .table {
+    margin-top: 100px;
+    width: 1170px;
+    margin-left: 375px;
+    flex-direction: column;
 
-  .lorem {
-    font-family: $font-family-lorem;
-    font-size: $primary-font-size;
-  }
+    .box {
+      border: 1px solid $color-border;
+      border-radius: 11px;
+    }
 
+    .lorem {
+      font-family: $font-lorem;
+      font-size: $primary-size;
+      color: $color-lorem;
+    }
+
+    .alert {
+      font-family: $font-alert;
+      font-size: $size-alert;
+      margin-bottom: 50px;
+    }
+
+    .cancel {
+      margin-top: 7px;
+      margin-right: 20px;
+      height: 20px;
+      width: 20px;
+    }
+
+    .message {
+      font-family: $font-message;
+      font-size: $primary-size;
+      color: $color-message;
+    }
+
+    .big {
+      width: 100%;
+      height: 150px;
+    }
+
+    .circle-big {
+      border-radius: 50%;
+      width: 65px;
+      height: 65px;
+    }
+
+    .circle-small {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+
+    .violet-big {
+      background-color: $color-10;
+    }
+
+    .violet-small {
+      background-color: $color-9;
+    }
+
+    .smallboxes {
+      justify-content: space-between;
+      margin-bottom: $size-alert;
+
+      .small {
+        width: 570px;
+        height: 150px;
+      }
+
+      .yellow-big {
+        background-color: $color-2;
+      }
+      .green-big {
+        background-color: $color-4;
+      }
+      .red-big {
+        background-color: $color-6;
+      }
+      .blue-big {
+        background-color: $color-8;
+      }
+
+      .yellow-small {
+        background-color: $color-1;
+      }
+      .green-small {
+        background-color: $color-3;
+      }
+      .red-small {
+        background-color: $color-5;
+      }
+      .blue-small {
+        background-color: $color-7;
+      }
+    }
+  }
 }
